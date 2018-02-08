@@ -1,0 +1,35 @@
+{
+  "name": "boilerplatetwopointoh",
+  "version": "0.0.1",
+  "description": "Simple boilerplate for typescript development. Includes webpack 3 and treeshaking combined with LESS and MJML tasks built into the gulpfile for compilation.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "webpack --config Custom/UI/Scripts/webpack.config.js",
+    "build:prod": "webpack --config Custom/UI/Scripts/webpack.config.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-minify": "^0.3.0",
+    "babel-minify-webpack-plugin": "^0.3.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-connect": "^5.2.0",
+    "gulp-connect-ssi": "^0.4.0",
+    "gulp-filter": "^5.1.0",
+    "gulp-less": "^3.4.0",
+    "gulp-mjml": "^2.3.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-pixrem": "^1.0.0",
+    "gulp-progeny": "^0.4.1",
+    "gulp-rename": "^1.2.2",
+    "ts-loader": "^3.5.0",
+    "typescript": "^2.7.1",
+    "webpack": "^3.10.0"
+  }
+}

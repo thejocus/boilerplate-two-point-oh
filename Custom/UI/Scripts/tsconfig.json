@@ -1,0 +1,18 @@
+{
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "es5",
+        "module": "es6",
+        "moduleResolution": "node",
+        "removeComments": true,
+        "sourceMap": true,
+        "typeRoots": ["node_modules/@types"],
+        "jsx": "react",
+        "allowJs": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

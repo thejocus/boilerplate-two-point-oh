@@ -1,0 +1,36 @@
+{
+    "paths": {
+        "flatbuild"     : "/",
+        "project"       : "/",
+        "resources"     : "/Custom/UI" 
+    },
+    "lang": {
+        "typescript": {
+            "src": "src",
+            "dist": "dist",
+            "entry": "app.ts",
+            "exit": "[name].bundle.js"
+        },
+        
+        "css": {
+            "path": "/Custom/UI/Content/css"
+        },
+        "less": {
+            "src": "/Custom/UI/Content/less",
+            "dist": "/Custom/UI/Content/css",
+            "browsers": [
+                "ie >= 11",
+                "edge >= 13",
+                "chrome >= 58",
+                "ff >= 54",
+                "safari >= 9",
+                "ios >= 9",
+                "samsung >= 5"
+            ]
+        },
+        "mjml": {
+            "src": "/Custom/UI/Content/email/mjml",
+            "dist": "/Custom/UI/Content/email/html"
+        }
+    }
+}
